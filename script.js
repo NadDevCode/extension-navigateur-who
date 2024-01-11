@@ -14,22 +14,30 @@ async function apiWiki(name) {
 
     const data = await response.json();
     //console.log(data);
-    const personPicture = data.originalimage.source;
-    console.log(personPicture);
 
-    const personName = data.titles.normalized;
-    console.log(personName);
-
-    const personBio = data.extract;
-    console.log(personBio);
+    const personPicture = document.getElementById("picture");
+    personPicture.innerHTML = `<img src="${data.originalimage.source}" style='width: 200px; height: 200px'>`;
+    //console.log(personPicture);
+    const personName = document.getElementById("name");
+    personName.innerHTML = data.titles.normalized;
+    //console.log(personName);
+    const personBio = document.getElementById("description");
+    personBio.innerHTML = data.extract;
+    //console.log(personBio);
   } catch (error) {
     console.error("Error fetching data:" + error.message);
   }
 }
 
-myButton.addEventListener("click", (e) => {
+myButton.addEventListener("click", async (e) => {
   e.preventDefault();
-  const inputName = document.getElementById("personName").value;
-  const result = apiWiki(inputName);
-  console.log(result);
+  const inputName = document
+    .getElementById("personName")
+    .value.replace(" ", "_");
+
+  try {
+    await apiWiki(inputName);
+  } catch {
+    console.error("Error:" + error);
+  }
 });

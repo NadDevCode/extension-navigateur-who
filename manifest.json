@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Who ?",
+    "version": "1.0.0",
+    "description": "Extension that gives you information on people... ",
+    "icons": {
+        "128": "./icons/128X128.png"
+    },
+    "action": {
+        "default_icon": {
+          "16": "./icons/16X16.png",
+          "32": "./icons/32X32.png",
+          "48": "./icons/icon_who (1).png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://*/*", "http://*/*"],
+          "js": ["script.js"],
+          "css": ["style.css"],
+          "run_at": "document_idle"
+        }
+    ]
+
+     
+}
+  

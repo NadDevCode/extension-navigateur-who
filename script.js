@@ -12,11 +12,19 @@ async function apiWiki(name) {
 
     const data = await response.json();
 
+    let pictureDisplay = "";
+
+    if (name === "Eric_Zemmour") {
+      pictureDisplay = "https://urlz.fr/pfmI";
+    } else {
+      pictureDisplay = data.originalimage.source;
+    }
+
     const personPicture = document.getElementById("picture");
-    personPicture.innerHTML = `<img src="${data.originalimage.source}" style='width: 200px; height: 200px'>`;
+    personPicture.innerHTML = `<img src="${pictureDisplay}" style='width: 200px; height: auto'>`;
 
     const personName = document.getElementById("name");
-    personName.innerHTML = data.titles.normalized;
+    personName.innerHTML = `<a href="${data.content_urls.desktop.page}" target="_blank">${data.titles.normalized}</a>`;
 
     const personBio = document.getElementById("description");
     personBio.innerHTML = data.extract;

@@ -5,16 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Who?</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
     <div id="name"></div>
     <div id="picture"></div>
     <div id="description"></div>
     <form id="formulaire">
-      <input type="text" placeholder="Entrez un nom" id="personName" />
-      <button id="bouton" type="submit">Show me</button>
+      <div class="container">
+        <input
+          class="textInput"
+          type="text"
+          placeholder="Paste the name"
+          id="personName"
+        />
+      </div>
+      <button class="buttonStyle" id="bouton" type="submit" role="button">
+        Show me !
+      </button>
     </form>
+
     <script src="./script.js"></script>
   </body>
 </html>

@@ -1,23 +1,165 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet"');
+
+@import url('"https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   min-width: 200px;
-  min-height: 200px;
+  min-height: 150px;
+  background: rgb(255, 216, 138);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 216, 138) 0%,
+    rgba(255, 245, 213) 100%
+  );
 }
+
 #name {
   text-align: center;
   padding: 5%;
-  font-family: fantasy;
+  font-family: "Ubuntu Mono", monospace;
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(84, 74, 125);
+}
+
+a:active {
+  color: rgb(255, 216, 138);
+}
+
+#hand {
+  padding-bottom: 25px;
+  font-size: 1.5rem;
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
 }
 
 #description {
-  padding: 5%;
+  padding: 20px 10px;
   text-align: center;
 }
 
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  width: 150px;
+}
+
+.textInput {
+  background-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  padding: 15px;
+  border: 2px solid rgba(255, 216, 138);
+  border-radius: 7px;
+  box-shadow: 0px 0px 25px 1px transparent;
+  transition: box-shadow 0.4s linear, border-color 0.4s linear;
+}
+.textInput:focus {
+  border-color: rgba(84, 74, 125, 1);
+  box-shadow: 0px 0px 20px 1px rgba(84, 74, 125, 1);
+  transform: translateX(0px);
+  border: 2px solid transparent;
+  outline: none;
+  color: rgba(84, 74, 125, 1);
+  opacity: 1;
+}
+
 button {
-  border-radius: 10%;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: rgba(255, 212, 82, 0.9);
+  color: rgba(84, 74, 125, 1);
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.buttonStyle {
+  margin-bottom: 15px;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonStyle:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.buttonStyle:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
 }

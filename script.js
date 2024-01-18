@@ -50,6 +50,7 @@ async function apiWiki(name) {
     } else {
       personBio.innerHTML = `<i id="hand" class="fa-solid fa-hand-pointer"></i> <br/> Il existe plusieurs liens pour ce nom. Débrouillez-vous !`;
       personName.innerHTML = `<a id="moveText" href="${data.content_urls.desktop.page}" target="_blank">${data.titles.normalized}</a>`;
+      personPicture.innerHTML="";
     }
   } catch (error) {
     console.log(error);

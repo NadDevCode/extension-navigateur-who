@@ -1,3 +1,3 @@
-# extension-navigateur-extension_lea_aurelien_nadege
+# extension-navigateur
 
 created by GitHub Classroom

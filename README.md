@@ -113,7 +113,7 @@ Naviguez jusqu'au dossier où vous avez cloné le dépôt de l'extension et sél
 ## Technos
 
 <p align="center"> 
-    <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank" rel="noreferrer">
+    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" rel="noreferrer">
         <img width="75px" src='https://drive.google.com/uc?export=view&id=1h0n8nbhB3bJXcUGRGHyHG7ZI2EZo6VhW'  alt="Logo JavaScript">
     </a>
      &nbsp &nbsp &nbsp &nbsp &nbsp

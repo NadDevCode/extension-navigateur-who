@@ -17,7 +17,7 @@
 <br/>
 Imaginez-vous en train de parcourir vos sites web préférés, à la découverte d’articles variés et passionnants. Soudain, vous tombez sur le nom d'une personnalité dont vous ne connaissez rien. Cette information devient cruciale pour comprendre le reste de l'article.
 C’est à ce moment que <strong>Who</strong> va devenir votre plus fidèle allier.
-
+<br/>
 <br/>
 <strong>Who</strong> est une extension de navigateur qui, à partir d'un nom propre, vous fournit une brève biographie et une image associée à votre recherche. Si vous avez besoin de plus d'informations, <strong>Who</strong> vous redirige vers la page Wikipédia correspondante à votre recherche.
 <br/>

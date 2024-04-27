@@ -131,5 +131,5 @@ Naviguez jusqu'au dossier où vous avez cloné le dépôt de l'extension et sél
 ## Contributeuses(-eurs)
 
 - [**Nadège PELCAT**](https://github.com/npelcat) - *Développeuse*
-- [**Léa Stattner**](https://github.com/Lea9723) - *Développeuse*
+- [**Léa STATTNER**](https://github.com/Lea9723) - *Développeuse*
 - [**Aurélien CARTIER**](https://github.com/NadDevCode) - *Développeur*

@@ -1,7 +1,20 @@
 # Who
 
+<details>
+<summary style="font-size: 25px">Table des matières 📖</summary>
+
+- [On Meuble](#who)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Demo](#demo)
+  - [Suivi de projet](#suivi-de-projet)
+  - [Technos](#technos)
+
+</details>
+
 ## Description
 
+<br/>
 Imaginez-vous en train de parcourir vos sites web préférés, à la découverte d’articles variés et passionnants. Soudain, vous tombez sur le nom d'une personnalité dont vous ne connaissez rien. Cette information devient cruciale pour comprendre le reste de l'article.
 C’est à ce moment que <strong>Who</strong> va devenir votre plus fidèle allier.
 
@@ -40,9 +53,12 @@ Naviguez jusqu'au dossier où vous avez cloné le dépôt de l'extension et sél
 
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
-## Utilisation
+## Demo
 
+<br/>
+ <img width="1000px" src='https://drive.google.com/uc?export=view&id=1q4iuEJapchpBAW5dy_wG5lTclGvnEQb_'  alt="Démonstration extension navigateur Who">
 
+ ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
 
 ## Suivi de projet
 
@@ -91,3 +107,29 @@ Naviguez jusqu'au dossier où vous avez cloné le dépôt de l'extension et sél
 - Ajout de certaines valeurs en dures
 - Dernier push sur Git
 - Début prépa démo
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+
+## Technos
+
+<p align="center"> 
+    <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank" rel="noreferrer">
+        <img width="75px" src='https://drive.google.com/uc?export=view&id=1h0n8nbhB3bJXcUGRGHyHG7ZI2EZo6VhW'  alt="Logo JavaScript">
+    </a>
+     &nbsp &nbsp &nbsp &nbsp &nbsp
+    <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank" rel="noreferrer">
+        <img width="75px" src='https://drive.google.com/uc?export=view&id=10K18tSqjh9QIOyjatPgJhNQXKkTlDZS8'  alt="Logo HTML">
+    </a>
+     &nbsp &nbsp &nbsp &nbsp &nbsp
+    <a  href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank" rel="noreferrer">
+        <img width="75px" src='https://drive.google.com/uc?export=view&id=1RQZJzDAGW39RFxPbXlObZU4XY3a1e4n7'  alt="Logo CSS">
+    </a>
+</p>
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
+
+## Contributeuses(-eurs)
+
+- [**Nadège PELCAT**](https://github.com/npelcat) - *Développeuse*
+- [**Léa Stattner**](https://github.com/Lea9723) - *Développeuse*
+- [**Aurélien CARTIER**](https://github.com/NadDevCode) - *Développeur*

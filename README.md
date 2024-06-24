@@ -113,7 +113,7 @@ Naviguez jusqu'au dossier où vous avez cloné le dépôt de l'extension et sél
 ## Technos
 
 <p align="center">
-  <a href="https://fr.react.dev/" target="_blank" rel="noreferrer">
+  <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img width="75px" src="https://skillicons.dev/icons?i=javascript" title="JavaScript" alt="Logo Javascript"/>
   </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
